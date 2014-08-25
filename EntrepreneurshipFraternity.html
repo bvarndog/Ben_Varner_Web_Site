@@ -5,6 +5,14 @@
 		<link rel="stylesheet" href="ent.css">
 	</head>
 	<body>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 		<nav class="navbar navbar-default" role="navigation">
 			<div class="container-fluid">
 				<!-- Brand and toggle get grouped for better mobile display -->
@@ -59,6 +67,13 @@
 					<h4>To encourage ethical business practices within the community and contribute to the welfare of society.</h4>
 					<p>Consumers and companies alike want to deal with ethical companies who provide them with the best quality products and services, with no hidden fees or schemes attached.  Every handshake should be accompanied by a friendly, smiling face.</p>
 				</div>	
+			</div>
+			<div class="row">
+				<div class="col-md-6" id="facebook-like-panel">
+					<div class="fb-like-box" data-href="https://www.facebook.com/EpsilonNuTau?ref=profile" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+				</div>
+				<div class="col-md-6" id="twitter-follow-panel">
+				</div>
 			</div>
 		</div>
 		<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
